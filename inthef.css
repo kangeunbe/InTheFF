@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*****reset.css*****/
+
+body {
+    height: 1000px;
+}
+
+#top-header1{
+    padding: 32px;
+    display: flex;
+    align-items: center;
+}
+
+#logo1{
+    justify-content: center;
+    width: 35vw;
+    display: flex;
+    margin: 0 auto;
+}
+
+#top-header2{
+    right: 16px;
+    display: flex;
+    position: absolute;
+    font-size: 12px;
+}
+
+#header-img{
+    display:flex;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#main-container{
+    padding: 32px;
+    display: grid;
+}
+
+#main-text1 > p {
+    font-weight: bolder;
+    display: flex;
+    margin: 0 auto;
+    font-size: 24px;
+    justify-content: center;
+}
+
+#main-text2 > p {
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+}
+
+.Middle-text{
+    gap:8px;
+    padding: 16px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
+}
+
+#middle-texto{
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
+}
+
+.Middle-text > span{
+    font-weight: 900;
+}
+
+#header-img2{
+    display:flex;
+    flex-direction: column;
+}
+
+#header-img3{
+    display:flex;
+    padding: 64px 0px 64px 0px ;
+    justify-content: center;
+}
+
+#middle-text{
+    justify-content: center;
+    font-size: 56px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#middle-font{
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #fff
+}
+
+#middle-box{
+    text-align: center;
+    padding:0px 16px;
+}
+
+#middle-box > button{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border:1px solid #e6e6e6;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    line-height: 100px;
+    color:#fff;
+    margin-top:64px;
+}
+
+
+@media (min-width:768px){ /*태블릿*/}
+
+@media (min-width:1280px) { /*pc*/}
+
+
